@@ -1,0 +1,22 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+#main {
+  width: 600px;
+  /*border: 1px solid black;*/
+}
+
+img {
+  width: 100%;
+  padding-top: 50px;
+}
+
+#buttons {
+  display: inline;
+}

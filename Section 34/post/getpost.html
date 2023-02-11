@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form for GET and POST</title>
+</head>
+<body>
+  <h2>GET</h2>
+  <form action="localhost:3000/tacos" method="get">
+    <input type="text" name="getveg" id="getveg">
+    <input type="number" name="getnum" id="getnum">
+    <button>Submit</button>
+  </form>
+  <form action="localhost:3000/tacos" method="post">
+    <input type="text" name="getnveg" id="getnveg">
+    <input type="number" name="getnnum" id="getnnum">
+    <button>Submit</button>
+  </form>
+</body>
+</html>
